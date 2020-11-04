@@ -1,6 +1,13 @@
+#dev
+.idea
 node_modules
 demoday.iml
 misc.xml
 modules.xml
 vcs.xml
+
+#wp
 wp-config.php
+
+#wp-plugins
+wp-content/plugins/advanced-custom-fields-pro/
