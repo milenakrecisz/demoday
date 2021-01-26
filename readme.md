@@ -17,6 +17,11 @@ yarn run dev
 then open `http://localhost:8000/`, setup DB, login to wp-admin, select `Packhelp Demo Day` theme and it's done.
 PHPMyAdmin is available under `http://localhost:8080/`
 
+---
+---
+---
+---
+
 # Zadanie UI:
 
 W tym zadaniu skupiamy się na UI. Do zakodowania są 2 sekcje w PHP oraz modal w React.
@@ -62,6 +67,11 @@ Roboto/ Lato
 - Animacje
 - Ustawianie danych do sekcji przez Wordpress
 - Cokolwiek przyjdzie Ci do głowy ;)
+
+---
+---
+---
+---
 
 # Zadanie Wordpress:
 
