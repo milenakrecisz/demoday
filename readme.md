@@ -17,7 +17,53 @@ yarn run dev
 then open `http://localhost:8000/`, setup DB, login to wp-admin, select `Packhelp Demo Day` theme and it's done.
 PHPMyAdmin is available under `http://localhost:8080/`
 
-# Do zrobienia:
+# Zadanie UI:
+
+W tym zadaniu skupiamy się na UI. Do zakodowania są 2 sekcje w PHP oraz modal w React.
+
+##### Sekcja 1
+![Modal](images/section-1.png)
+
+##### Sekcja 2
+![Modal](images/section-2.png)
+
+##### Modal
+![Modal](images/modal.png)
+
+##### Modal powinien zawierać następujące pola:
+
+- Imię*
+- Nazwisko
+- Adres e-mail*
+
+*-pola obowiązkowe
+
+Po kliknięciu sign-in trzeba zamockować request. Opcjonalnie można stworzyć endpoint w PHP, który zwraca predefiniowany response 200.
+
+## Kolory
+- ![#3b61ff](https://via.placeholder.com/15/3b61ff/000000?text=+) `#3b61ff`
+- ![#f5a0c5](https://via.placeholder.com/15/f5a0c5/000000?text=+) `#f5a0c5`
+- ![#2f2f2f](https://via.placeholder.com/15/2f2f2f/000000?text=+) `#2f2f2f`
+- ![#eeab1d](https://via.placeholder.com/15/eeab1d/000000?text=+) `#eeab1d`
+- ![#c5c5c5](https://via.placeholder.com/15/c5c5c5/000000?text=+) `#c5c5c5`
+- ![#c7e0fe](https://via.placeholder.com/15/c7e0fe/000000?text=+) `#c7e0fe`
+
+## Fonty
+
+Roboto/ Lato
+
+## Wymagania
+
+- Strona musi być responsywna
+- Nie można używać bibliotek typu Bootstrap. Interesuje nas czysty PHP/React/CSS(SCSS)
+
+## Opcjonalnie
+
+- Animacje
+- Ustawianie danych do sekcji przez Wordpress
+- Cokolwiek przyjdzie Ci do głowy ;)
+
+# Zadanie Wordpress:
 
 W tym zadaniu kładziemy nacisk na implementację PHP/JS niż stylowanie CSS - dlatego właśnie dostarczamy "gotowe" pliki HTML, aby nie tracić czasu na budowanie surowego HTML. Znajdziesz je w folderze `/templates/`. Przy wdrażaniu zwróć uwagę, aby elementy były możliwie reużywalne, oraz zdefiniowane. Zwracamy uwagę na dzielenie i paczkowanie kodu.
 
