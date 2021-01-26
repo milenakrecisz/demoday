@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:300,400,500i,900,900i');
+
+body {
+  color: $black;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 0.03em;
+}
+
+h1, h2, h3, h4, h5, p {
+  text-align: center;
+}
+
+h1 {
+  font-size: 44px;
+  span {
+    background-image: linear-gradient($pink, $pink);
+    background-position: left bottom 0.18em;
+    background-repeat: no-repeat;
+    background-size: 100% 8px;
+  }
+}

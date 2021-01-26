@@ -1,6 +1,6 @@
 // import more scss
+@import "variables";
+@import "elements";
 @import "module";
-
-div {
-  background: lightsalmon; // example to see that webpack is working
-}
+//@import "modal";
+@import "typography";

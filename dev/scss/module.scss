@@ -1,3 +1,65 @@
-p {
-  border: 1px solid green; // example to see that webpack is working
+.container {
+  padding: 20px 50px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: $mobile;
+}
+
+.narrow-view {
+  margin: auto;
+  max-width: 700px;
+}
+.section_1 {
+    margin-bottom: 100px;
+    p {
+      font-size: 30px;
+    }
+  }
+
+
+.options {
+
+  position: relative;
+
+  .option {
+    border: solid 1px $grey;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    padding: 10px 20px 50px;
+
+    h5 {
+      background-position: left bottom 0.18em;
+      background-repeat: no-repeat;
+      background-size: 100% 8px;
+      margin: auto;
+      max-width: max-content;
+
+      &.__option1 {
+        background-image: linear-gradient($turkus, $turkus);
+      }
+      &.__option2 {
+        background-image: linear-gradient($grey, $grey);
+      }
+      &.__option3 {
+        background-image: linear-gradient($orange, $orange);
+      }
+    }
+  }
+}
+
+
+@media only screen and (min-width: $desktop) {
+  .container {
+    padding: 50px 100px;
+    max-width: $desktop;
+  }
+  .options {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0 20px;
+
+    .option {
+
+    }
+  }
 }
