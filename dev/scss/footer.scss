@@ -1,0 +1,15 @@
+.footer-menu {
+  background-color: $pink;
+  padding: 50px;
+}
+
+.blog-footer {
+  background-color: $turkus;
+  padding: 50px;
+
+  .randomposts, .tags {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+  }
+}

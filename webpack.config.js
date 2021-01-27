@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = {
     entry: './dev/js/main.js',
     resolve: {
-        extensions: ['.ts', '.tsx', '.js']
+        extensions: ['.ts', '.tsx', '.js', '.jsx']
     },
     output: {
         path: path.join(__dirname, '/dist'),
@@ -41,6 +41,25 @@ module.exports = {
                     'sass-loader',
                 ],
             },
-        ]
-    },
+            {
+               test: /\.js$/,
+               loader: "babel-loader",
+               exclude: [/node_modules/, /public/],
+               options: {
+                 presets: ["@babel/preset-react"],
+                 plugins: ["@babel/plugin-proposal-class-properties" ]
+              }
+            },
+           {
+             test: /\.jsx$/,
+             loader: "babel-loader",
+             exclude: [/node_modules/, /public/],
+             options: {
+               presets: ["@babel/preset-react"],
+               plugins: [ "@babel/plugin-syntax-jsx", "@babel/plugin-proposal-class-properties" ]
+             }
+           },
+         ]
+       },
+
 }
